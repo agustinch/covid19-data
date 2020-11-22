@@ -7,13 +7,27 @@ const Footer: React.FC = () => (
     <Row className="h-100 w-100">
       <Col className="my-auto">
         <span>
-          Dev: <a href="https://github.com/agustinch">@agustinch</a>
+          Dev:{' '}
+          <a
+            href="https://github.com/agustinch"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @agustinch
+          </a>
         </span>
       </Col>
       <Col className="text-right my-auto">
         <span>
           {' '}
-          Datos proveidos por: <a href="https://covid19api.com/">Covid19api</a>
+          Datos proveídos por:{' '}
+          <a
+            href="https://covid19api.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Covid19api
+          </a>
         </span>
       </Col>
     </Row>
