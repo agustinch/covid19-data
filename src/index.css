@@ -5,6 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* El siguiente código fue tomado desde https://codepen.io/ig_design/pen/dLNKgM . Se le aplicaron cambios.   */
 [type='checkbox']:checked,
 [type='checkbox']:not(:checked),
 [type='radio']:checked,
