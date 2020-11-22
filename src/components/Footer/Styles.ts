@@ -5,8 +5,5 @@ export const FooterContainer = styled.div`
   height: 80px;
   padding: 0px 20vw;
   color: #3a3a3a;
-  p {
-    text-align: left;
-    font-size: 1.1em;
-  }
+  font-weight: bold;
 `;

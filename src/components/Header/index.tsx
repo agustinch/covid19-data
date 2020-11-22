@@ -8,8 +8,8 @@ interface Props {
 
 const Header: React.FC<Props> = () => (
   <HeaderContainer className="d-flex">
-    <Container className="d-flex w-100 text-center">
-      <Row className="w-100">
+    <Container className="my-auto w-100 text-center">
+      <Row>
         <Col xl={12} className="text-center my-auto">
           <HeaderTitle>Covid-19 datos en el mundo</HeaderTitle>
           <HeaderSubTitle>
