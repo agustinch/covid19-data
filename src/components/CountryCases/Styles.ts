@@ -9,5 +9,7 @@ export const CountryCasesContainer = styled.div`
   padding: 40px;
   -webkit-box-shadow: inset 0px 0px 15px 6px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 15px 6px rgba(0, 0, 0, 0.2);
-  font-weight: 700;
+  h1 {
+    font-weight: 700;
+  }
 `;
