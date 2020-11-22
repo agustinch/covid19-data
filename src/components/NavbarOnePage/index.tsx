@@ -6,14 +6,7 @@ import styled from 'styled-components';
 
 const NavbarOnePage: React.FC = () => (
   <NavbarContainer bg="dark" variant="dark" expand="lg" sticky="top">
-    <Navbar.Brand
-      as={Link}
-      to="header"
-      spy={true}
-      smooth={true}
-      offset={0}
-      duration={500}
-    >
+    <Navbar.Brand onClick={() => scroll.scrollToTop()}>
       Covid-19 Datos
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
