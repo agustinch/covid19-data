@@ -19,6 +19,11 @@ export const CasesTotalContainer = styled.div`
   h2 {
     font-size 1.6rem;
   }
+ .totals-top{
+    @media (max-width: 1199px){
+      border-bottom: 1px solid #dee2e6!important
+    }
+  }
 `;
 
 export const TotalNumbers = styled(CountUp)`
