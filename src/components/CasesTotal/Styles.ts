@@ -14,6 +14,7 @@ export const CasesTotalContainer = styled.div`
   h1 {
     font-size 1.8rem;
     color: #969696;
+    font-weight: 700;
   }
 
   h2 {
