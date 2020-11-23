@@ -43,7 +43,7 @@ const CountryCases: React.FC<Props> = ({ dataTotalsCountry }) => {
       <div className="text-center">
         <h1>Datos por País</h1>
       </div>
-      <Row noGutters className="mt-5 p-5">
+      <Row noGutters className="mt-4 p-5">
         <Col lg={6} className="d-flex align-items-center flex-column">
           {dataTotalsCountry.map((country: DataTotals, i) => (
             <>
