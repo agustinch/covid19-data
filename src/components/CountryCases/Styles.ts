@@ -12,4 +12,11 @@ export const CountryCasesContainer = styled.div`
   h1 {
     font-weight: 700;
   }
+
+  @media (max-width: 432px) {
+    .checkbox-budget:checked + label,
+    .checkbox-budget:not(:checked) + label {
+      font-size: 40px;
+    }
+  }
 `;

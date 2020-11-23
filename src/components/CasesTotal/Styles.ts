@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const CasesTotalContainer = styled.div`
   min-height: 45vh;
-  margin: 0px 20vw;
+  margin: 0px 20%;
   padding: 30px;
   text-align:center;
   border-top-left-radius: 20px;
@@ -20,9 +20,13 @@ export const CasesTotalContainer = styled.div`
   h2 {
     font-size 1.6rem;
   }
- .totals-top{
-    @media (max-width: 1199px){
+
+
+  @media (max-width: 1199px){
+    margin: 0px 10%;
+    .totals-top{
       border-bottom: 1px solid #dee2e6!important
+
     }
   }
 `;
