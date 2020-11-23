@@ -19,8 +19,7 @@ const Footer: React.FC = () => (
       </Col>
       <Col className="text-right my-auto">
         <span>
-          {' '}
-          Datos proveídos por:{' '}
+          Datos provistos por:{' '}
           <a
             href="https://covid19api.com/"
             target="_blank"
