@@ -21,28 +21,24 @@ const AppContainer = styled.div`
 
 const countries = [
   {
-    id: 'AR',
-    name: 'Argentina',
+    id: 'US',
+    name: 'USA',
+  },
+  {
+    id: 'IN',
+    name: 'India',
   },
   {
     id: 'BR',
     name: 'Brasil',
   },
   {
-    id: 'US',
-    name: 'USA',
+    id: 'FR',
+    name: 'Francia',
   },
   {
-    id: 'CN',
-    name: 'China',
-  },
-  {
-    id: 'DE',
-    name: 'Alemania',
-  },
-  {
-    id: 'UY',
-    name: 'Uruguay',
+    id: 'RU',
+    name: 'Rusia',
   },
 ];
 
@@ -95,15 +91,20 @@ const App: React.FC = () => {
           countries.map((c) => c.id).includes(country.CountryCode)
         );
         setDataTotalsCountry(
-          countriesData.map((country: any) => ({
-            idCountry: country.CountryCode,
-            countryName:
-              countries.find((c) => c.id === country.CountryCode)?.name ||
-              country.Country,
-            totalConfirmed: country.TotalConfirmed,
-            totalDeaths: country.TotalDeaths,
-            totalRecovered: country.TotalRecovered,
-          }))
+          countriesData
+            .map((country: any) => ({
+              idCountry: country.CountryCode,
+              countryName:
+                countries.find((c) => c.id === country.CountryCode)?.name ||
+                country.Country,
+              totalConfirmed: country.TotalConfirmed,
+              totalDeaths: country.TotalDeaths,
+              totalRecovered: country.TotalRecovered,
+            }))
+            .sort(
+              (a: DataTotals, b: DataTotals) =>
+                b.totalConfirmed - a.totalConfirmed
+            )
         );
       })
       .catch((error) => console.log('error', error));

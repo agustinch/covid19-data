@@ -41,7 +41,8 @@ const CountryCases: React.FC<Props> = ({ dataTotalsCountry }) => {
   return (
     <CountryCasesContainer>
       <div className="text-center">
-        <h1>Datos por País</h1>
+        <h1>Top 5</h1>
+        <h2>Países con más casos confirmados</h2>
       </div>
       <Row noGutters className="mt-4 p-5">
         <Col lg={6} className="d-flex align-items-center flex-column">
