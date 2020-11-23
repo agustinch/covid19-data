@@ -1,3 +1,7 @@
+# On Live! 🔴
+
+[https://covid-19-data-2020.netlify.app](https://covid-19-data-2020.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
