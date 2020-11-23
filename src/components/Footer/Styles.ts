@@ -6,4 +6,8 @@ export const FooterContainer = styled.div`
   padding: 0px 20vw;
   color: #3a3a3a;
   font-weight: bold;
+
+  span {
+    background-color: white;
+  }
 `;
