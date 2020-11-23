@@ -1,4 +1,4 @@
-#On Live! 🔴
+# On Live! 🔴
 
 [https://covid-19-data-2020.netlify.app](https://covid-19-data-2020.netlify.app/)
 
