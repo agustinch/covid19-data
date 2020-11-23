@@ -41,7 +41,7 @@ const NavbarOnePage: React.FC = () => (
           offset={-120}
           duration={500}
         >
-          Datos por País
+          Top 5 países
         </Nav.Link>
       </Nav>
     </Navbar.Collapse>
